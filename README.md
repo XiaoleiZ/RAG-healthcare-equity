@@ -13,6 +13,15 @@ Simple RAG system: FDA Drug approval data → embeddings → stock prices → LL
 ```python
 answer, results = ask_question("FDA events for Johnson and Johnson?", stock="JNJ")
 print(answer)
+
+`On March 5, 2026, Johnson and Johnson's subsidiary, Janssen Biotech, received FDA approvals for three new treatments: Erleadanda, Talveybla, and Tecvaylibla. The stock price of Johnson and Johnson moved downward on the approval dates, with a price change of -3.00% for each of the approved treatments. This suggests that the market may have been expecting more significant or positive outcomes from these approvals, leading to a slight decline in the stock price.
+
+================================================================================
+Approval Date	Company	ticker	Drug Name	Submission Status	Price Change
+44	2026-03-05	JANSSEN BIOTECH	JNJ	ERLEADANDA   #210951	Approval	-3.0
+52	2026-03-05	JANSSEN BIOTECH	JNJ	TALVEYBLA   #761342	Approval	-3.0
+51	2026-03-05	JANSSEN BIOTECH	JNJ	TECVAYLIBLA   #761291	Approval	-3.0
+`
 ```
 
 ## What It Does
