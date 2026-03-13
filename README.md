@@ -6,7 +6,7 @@ Simple RAG system: FDA Drug approval data → embeddings → stock prices → LL
 
 1. **Data**: Download [FDA Drug Approval data](https://www.accessdata.fda.gov/scripts/cder/daf/) and save as `DrugsFDA_FDA-Approved_Drugs_March2026.csv`
 2. **API Key**: `export GROQ_API_KEY="your-key"`
-3. **Run**: Open notebook in Jupyter and run cells (packages install automatically). Also available at [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1iS9OiVVvjaPkClLtw8GD2ZuJCuCtP_m-?usp=sharing])
+3. **Run**: Open notebook in Jupyter and run cells (packages install automatically). Also available at [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xiaoleiz/RAG_healthcare_equity/blob/main/RAG_FDA_stock.ipynb)
 
 ## Example
 
