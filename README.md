@@ -1,10 +1,10 @@
 # FDA Events RAG with Stock Price
 
-Simple RAG system: FDA data → embeddings → stock prices → LLM answers
+Simple RAG system: FDA Drug approval data → embeddings → stock prices → LLM answers
 
 ## Quick Start
 
-1. **Data**: Download FDA data and save as `DrugsFDA_FDA-Approved_Drugs_March2026.csv`
+1. **Data**: Download [FDA Drug Approval data](https://www.accessdata.fda.gov/scripts/cder/daf/) and save as `DrugsFDA_FDA-Approved_Drugs_March2026.csv`
 2. **API Key**: `export GROQ_API_KEY="your-key"`
 3. **Run**: Open notebook in Jupyter and run cells (packages install automatically)
 
