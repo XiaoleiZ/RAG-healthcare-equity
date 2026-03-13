@@ -14,8 +14,9 @@ Simple RAG system: FDA Drug approval data → embeddings → stock prices → LL
 answer, results = ask_question("FDA events for Johnson and Johnson?", stock="JNJ")
 print(answer)
 ```
-
-```python On March 5, 2026, Johnson and Johnson's subsidiary, Janssen Biotech, received FDA approvals for
+Outputs: 
+```python
+On March 5, 2026, Johnson and Johnson's subsidiary, Janssen Biotech, received FDA approvals for
 three new treatments: Erleadanda, Talveybla, and Tecvaylibla. The stock price of Johnson and Johnson
 moved downward on the approval dates, with a price change of -3.00% for each of the approved
 treatments. This suggests that the market may have been expecting more significant or positive
